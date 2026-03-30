@@ -1,6 +1,6 @@
 # 🚀 Awesome Launch List
 
-> A curated collection of **1000+ free marketing resources** for launching and growing your startup. Directories, guest posting sites, and launch platforms — all in one place.
+> A curated collection of startup backlink lists for launching and growing your product. SaaS directories, guest posting sites, and related discovery platforms — all in one place.
 
 **Maintained by [Planting Moon](https://plantingmoon.com)** - We build MVPs and execute launch strategies for startups.
 
@@ -16,6 +16,7 @@
 |--------------|-------|----------|
 | 🏢 [SaaS Directories](#-saas-directories) | 424 | B2B SaaS, Dev Tools, Product Discovery |
 | ✍️ [Guest Post Sites](#-guest-post-sites) | 660 | Link Building, SEO, Content Marketing |
+| 🧩 [Open Source Directories](#-open-source-directories-experimental) | 4 (subset) | OSS projects, open-source alternatives |
 | 🤖 AI Directories | Coming Soon | AI/ML Products |
 | 🔖 Social Bookmarks | Coming Soon | Quick Wins, Traffic Boost |
 
@@ -25,7 +26,7 @@
 
 ## 🎯 Interactive Tools
 
-Don't want to browse JSON? Use our **free interactive tools** with filtering, sorting, and CSV export:
+Don't want to browse JSON? Use our free interactive backlink tools with filtering and sorting:
 
 - **[SaaS Directories Explorer](https://plantingmoon.com/saasdirectories)** - Filter by DR, type, cost
 - **[Guest Post Sites Database](https://plantingmoon.com/guest-posts)** - Search by niche, authority
@@ -48,6 +49,11 @@ fetch('https://raw.githubusercontent.com/ah8571/awesome-launch-list/main/data/sa
 
 // Fetch Guest Post Sites
 fetch('https://raw.githubusercontent.com/ah8571/awesome-launch-list/main/data/guest-posts.json')
+  .then(res => res.json())
+  .then(data => console.log(data.directories));
+
+// Fetch Experimental Open Source Directories subset
+fetch('https://raw.githubusercontent.com/ah8571/awesome-launch-list/main/data/open-source-directories.json')
   .then(res => res.json())
   .then(data => console.log(data.directories));
 ```
@@ -107,6 +113,24 @@ fetch('https://raw.githubusercontent.com/ah8571/awesome-launch-list/main/data/gu
 
 ---
 
+## 🧩 Open Source Directories (Experimental)
+
+This is a small experimental subset from the main directories dataset for open-source projects or open-source alternative discovery.
+
+**High-confidence matches:**
+- **SourceForge** - Open-source software repository and project hosting
+- **Open Alternative** - Open source alternatives to popular software
+
+**Medium-confidence matches:**
+- **AlternativeTo** - Alternatives directory that includes many open-source tools, but is not OSS-only
+- **EuroAlternative** - European alternatives to Big Tech, useful but not strictly OSS-only
+
+This subset is useful for research, but it is not broad enough yet to justify a full standalone landing page.
+
+📄 **[View Experimental Subset](data/open-source-directories.json)**
+
+---
+
 ## 🤝 Contributing
 
 Found a new directory or guest post site? We'd love to add it!  
@@ -139,7 +163,7 @@ We're adding tactical guides to help you make the most of these resources:
 
 ## 🌟 Why This Exists
 
-We compiled this data from directory submissions sources with attribution. Now we're open-sourcing it to help the startup community.
+We compiled this data from directory submission sources with attribution. Now we're open-sourcing it to help the startup community.
 
 ---
 
