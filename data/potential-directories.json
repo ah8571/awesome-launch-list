@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "name": "Potential Directories Review Queue",
+    "description": "Unverified or partially verified candidate directories that still need duplicate checks, DR lookup, pricing review, or submission review before promotion into the canonical dataset.",
+    "last_updated": "2026-03-31",
+    "total_count": 11,
+    "status_values": [
+      "pending",
+      "reviewing",
+      "approved",
+      "rejected",
+      "duplicate"
+    ],
+    "note": "Entries here are not part of the live backlink tables until they are reviewed and moved into data/saas-directories.json. Seeded with candidates from John Rush's directory list."
+  },
+  "directories": [
+    {
+      "id": "devhunt",
+      "name": "DevHunt",
+      "url": "https://devhunt.org",
+      "description": "Launchpad for developer tools and related products.",
+      "type": [
+        "Launch Platform",
+        "SaaS Directory",
+        "Developer Tools"
+      ],
+      "domainRating": "unknown",
+      "submissionType": "unknown",
+      "followType": "unknown",
+      "listedOn": [
+        "johnrush-list"
+      ],
+      "reviewStatus": "pending",
+      "reasonToReview": "Promising dev-tool launch platform but still needs DR, pricing, and duplicate review.",
+      "notes": "Source note: 'World #1 launchpad for Dev Tools'."
+    },
+    {
+      "id": "allgpts",
+      "name": "AllGPTs",
+      "url": "https://allgpts.co",
+      "description": "GPT directory with significant traffic according to source notes.",
+      "type": [
+        "AI Directory",
+        "GPT Directory",
+        "SaaS Directory"
+      ],
+      "domainRating": "unknown",
+      "submissionType": "unknown",
+      "followType": "unknown",
+      "listedOn": [
+        "johnrush-list"
+      ],
+      "reviewStatus": "pending",
+      "reasonToReview": "Relevant AI/GPT directory but still needs DR, pricing, and duplicate review.",
+      "notes": "Source note: 'GPT directory with over million visits'."
+    },
+    {
+      "id": "hostedsoftware",
+      "name": "Hosted Software",
+      "url": "https://hostedsoftware.org",
+      "description": "Directory focused on hosted software discovery.",
+      "type": [
+        "SaaS Directory",
+        "Hosted Software"
+      ],
+      "domainRating": "unknown",
+      "submissionType": "unknown",
+      "followType": "unknown",
+      "listedOn": [
+        "johnrush-list"
+      ],
+      "reviewStatus": "pending",
+      "reasonToReview": "Looks relevant but still needs DR, pricing, and duplicate review.",
+      "notes": "Source note: 'One of the most popular directory of hosted software'."
+    },
+    {
+      "id": "osssoftware",
+      "name": "OSS Software",
+      "url": "https://osssoftware.org",
+      "description": "Directory of open source tools and alternatives.",
+      "type": [
+        "Open Source",
+        "SaaS Directory"
+      ],
+      "domainRating": "unknown",
+      "submissionType": "unknown",
+      "followType": "unknown",
+      "listedOn": [
+        "johnrush-list"
+      ],
+      "reviewStatus": "pending",
+      "reasonToReview": "Strong open-source angle but still needs DR, pricing, and duplicate review.",
+      "notes": "Source note: 'Top directory of open source tool and alternatives'."
+    },
+    {
+      "id": "nextjsstarter",
+      "name": "Next JS Starter",
+      "url": "https://nextjsstarter.com",
+      "description": "Directory of Next.js boilerplates and starter kits.",
+      "type": [
+        "Template Design",
+        "Developer Tools",
+        "SaaS Directory"
+      ],
+      "domainRating": "unknown",
+      "submissionType": "unknown",
+      "followType": "unknown",
+      "listedOn": [
+        "johnrush-list"
+      ],
+      "reviewStatus": "pending",
+      "reasonToReview": "Useful niche directory but still needs DR, pricing, and duplicate review.",
+      "notes": "Source note: 'Top directory in the world of next js boilerplates'."
+    },
+    {
+      "id": "llmmodels",
+      "name": "LLM Models",
+      "url": "https://llmmodels.org",
+      "description": "Directory focused on large language models and related tools.",
+      "type": [
+        "AI Directory",
+        "SaaS Directory"
+      ],
+      "domainRating": "unknown",
+      "submissionType": "unknown",
+      "followType": "unknown",
+      "listedOn": [
+        "johnrush-list"
+      ],
+      "reviewStatus": "pending",
+      "reasonToReview": "Relevant AI directory but still needs DR, pricing, and duplicate review.",
+      "notes": "Source note: 'The biggest Large Language Models'."
+    },
+    {
+      "id": "mvpwizards",
+      "name": "MVP Wizards",
+      "url": "https://mvpwizards.com",
+      "description": "Directory of freelancers and agencies building MVPs.",
+      "type": [
+        "Remote Service",
+        "Agency Directory",
+        "SaaS Directory"
+      ],
+      "domainRating": "unknown",
+      "submissionType": "unknown",
+      "followType": "unknown",
+      "listedOn": [
+        "johnrush-list"
+      ],
+      "reviewStatus": "pending",
+      "reasonToReview": "Service-oriented listing site that may fit the broader backlink dataset but needs policy review.",
+      "notes": "Source note: 'List of freelancers and agencies building MVPs'."
+    },
+    {
+      "id": "aitoolfor",
+      "name": "AI Tool For",
+      "url": "https://aitoolfor.org",
+      "description": "Directory of AI tools and related categories.",
+      "type": [
+        "AI Directory",
+        "SaaS Directory"
+      ],
+      "domainRating": "unknown",
+      "submissionType": "unknown",
+      "followType": "unknown",
+      "listedOn": [
+        "johnrush-list"
+      ],
+      "reviewStatus": "pending",
+      "reasonToReview": "Likely useful AI tools directory but still needs DR, pricing, and duplicate review.",
+      "notes": "Source note: 'A list of AI tools for...'."
+    },
+    {
+      "id": "all-website-builders",
+      "name": "All Website Builders",
+      "url": "",
+      "description": "Directory covering website builders.",
+      "type": [
+        "SaaS Directory",
+        "Website Builder"
+      ],
+      "domainRating": "unknown",
+      "submissionType": "unknown",
+      "followType": "unknown",
+      "listedOn": [
+        "johnrush-list"
+      ],
+      "reviewStatus": "pending",
+      "reasonToReview": "Name is clear but URL still needs confirmation before review can proceed.",
+      "notes": "Source note: 'TOP website builders / All website builders'. Needs URL confirmation."
+    },
+    {
+      "id": "saassoftware",
+      "name": "SaaS Software",
+      "url": "https://saassoftware.org",
+      "description": "Directory for SaaS software discovery.",
+      "type": [
+        "SaaS Directory"
+      ],
+      "domainRating": "unknown",
+      "submissionType": "unknown",
+      "followType": "unknown",
+      "listedOn": [
+        "johnrush-list"
+      ],
+      "reviewStatus": "pending",
+      "reasonToReview": "Directly relevant but still needs DR, pricing, and duplicate review.",
+      "notes": "Source note: 'All SaaS software directory'."
+    },
+    {
+      "id": "bestaiagents",
+      "name": "Best AI Agents",
+      "url": "https://bestaiagents.org",
+      "description": "Directory of AI agents and tools for building agents.",
+      "type": [
+        "AI Directory",
+        "SaaS Directory"
+      ],
+      "domainRating": "unknown",
+      "submissionType": "unknown",
+      "followType": "unknown",
+      "listedOn": [
+        "johnrush-list"
+      ],
+      "reviewStatus": "pending",
+      "reasonToReview": "Potentially useful AI directory but still needs DR, pricing, and duplicate review.",
+      "notes": "Source note: 'Best AI agents and tools to build agents'."
+    },
+    {
+      "id": "directoryhunt",
+      "name": "DirectoryHunt",
+      "url": "https://directoryhunt.org",
+      "description": "Launchpad for directories and side projects.",
+      "type": [
+        "Launch Platform",
+        "SaaS Directory",
+        "Side Project"
+      ],
+      "domainRating": "unknown",
+      "submissionType": "unknown",
+      "followType": "unknown",
+      "listedOn": [
+        "johnrush-list"
+      ],
+      "reviewStatus": "pending",
+      "reasonToReview": "Likely relevant launch/discovery site but still needs DR, pricing, and duplicate review.",
+      "notes": "Source note: 'Top launchpad for directories and side projects'."
+    }
+  ]
+}

@@ -24,6 +24,26 @@
 
 ---
 
+## 🧱 Architecture
+
+This repo has three data layers:
+
+- **Canonical datasets** - `data/saas-directories.json` and `data/guest-posts.json`
+- **Experimental subsets** - focused slices derived from canonical data, like `data/open-source-directories.json`
+- **Review queue** - unverified candidates that still need duplicate checks, DR lookup, or manual review
+
+**Source of truth:** `data/saas-directories.json` is the canonical SaaS directories dataset. The Planting Moon website copy is generated from it and should not be treated as the primary place to edit entries.
+
+The canonical SaaS dataset uses richer directory typing so entries can support real filtering: multiple `type` tags, DR, submission type, follow type, source attribution, and notes.
+
+**Recommended workflow:**
+1. Add new finds to the review queue first.
+2. Verify duplicate status, DR, submission path, and overall quality.
+3. Promote approved entries into `data/saas-directories.json`.
+4. Regenerate the Planting Moon site copy from the canonical dataset.
+
+---
+
 ## 🎯 Interactive Tools
 
 Don't want to browse JSON? Use our free interactive backlink tools with filtering and sorting:
@@ -131,6 +151,28 @@ This subset is useful for research, but it is not broad enough yet to justify a 
 
 ---
 
+## 📝 Potential New Entries
+
+If you find a promising source list, like a personal spreadsheet or curated post that still needs review, add those candidates to the review queue instead of pushing them straight into the live dataset.
+
+The queue lives in `data/potential-directories.json` and is meant for:
+
+- candidates with unknown DR
+- entries that may already exist under another name
+- directories that still need manual submission testing
+- bulk finds from third-party lists that need cleanup first
+
+The queue intentionally mirrors the basic directory shape used by the live dataset, so review entries can carry:
+
+- `name`, `url`, `description`
+- `type` tags for filtering and categorization
+- placeholder values like `domainRating: "unknown"` or `submissionType: "unknown"`
+- `listedOn`, `notes`, and `reviewStatus`
+
+📄 **[View Review Queue](data/potential-directories.json)**
+
+---
+
 ## 🤝 Contributing
 
 Found a new directory or guest post site? We'd love to add it!  
@@ -182,7 +224,7 @@ This data is maintained by **[Planting Moon](https://plantingmoon.com)**, a deve
 
 ## 📊 Data Quality
 
-**Last Updated:** March 30, 2026  
+**Last Updated:** March 31, 2026  
 **Update Frequency:** Monthly  
 **Verification:** All entries manually reviewed  
 **Sources:** 13+ aggregators and our own research

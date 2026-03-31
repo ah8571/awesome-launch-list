@@ -18,9 +18,24 @@ Thank you for your interest in contributing! This guide will help you add new di
 - ❌ Very low quality sites (DR < 20, poor content)
 - ❌ Duplicate entries
 
+### Review Queue Candidates Are OK If:
+- ✅ The site looks promising but still needs DR verification
+- ✅ The listing source is credible but the entry needs manual cleanup
+- ✅ The entry may be a duplicate and needs comparison before approval
+- ✅ The submission process still needs to be tested
+
 ---
 
 ## 📝 How to Contribute
+
+### Data Architecture
+
+- `data/saas-directories.json` = canonical reviewed SaaS backlinks dataset
+- `data/guest-posts.json` = canonical reviewed guest post dataset
+- `data/open-source-directories.json` = experimental subset derived from canonical data
+- `data/potential-directories.json` = review queue for possible future additions
+
+If an entry is not verified yet, add it to the review queue instead of the canonical dataset.
 
 ### Option 1: GitHub Issue (Easiest)
 
@@ -39,7 +54,7 @@ Thank you for your interest in contributing! This guide will help you add new di
 **Personal experience:** [Have you used it? What was the result?]
 ```
 
-We'll review and add it within 3-5 days.
+We'll review and consider the addition.
 
 ---
 
@@ -57,6 +72,24 @@ We'll review and add it within 3-5 days.
    ```
 
 3. **Add your entry to the appropriate JSON file**
+
+    **If the entry is still unverified** (`data/potential-directories.json`):
+   ```json
+   {
+     "id": "unique-id-slug",
+     "name": "Directory Name",
+     "url": "https://example.com",
+       "description": "Brief description of the directory",
+       "type": ["SaaS Directory"],
+       "domainRating": "unknown",
+       "submissionType": "unknown",
+       "followType": "unknown",
+       "listedOn": ["johnrush-list"],
+     "reviewStatus": "pending",
+     "reasonToReview": "Looks relevant but DR and duplicate status still need verification",
+     "notes": "Any context, source notes, or cleanup questions"
+   }
+   ```
 
    **For SaaS Directories** (`data/saas-directories.json`):
    ```json
@@ -136,9 +169,10 @@ We'll review and add it within 3-5 days.
    - Quality meets our standards
    - No duplicates exist
    - Data is accurate
-3. **Verification** - We may test the submission process
-4. **Approval** - Merged and credited
-5. **Rejection** - We'll explain why and suggest alternatives
+3. **Queue first if needed** - Unverified entries stay in `data/potential-directories.json`
+4. **Verification** - We may test the submission process
+5. **Approval** - Promoted into the canonical dataset and credited
+6. **Rejection** - We'll explain why and suggest alternatives
 
 ---
 
@@ -149,6 +183,8 @@ We'll review and add it within 3-5 days.
 - ✅ Available via GitHub API
 - ✅ Your contribution is credited in commit history
 - ✅ Included in next website update
+
+For SaaS directories, the canonical dataset is later synced into the Planting Moon site copy.
 
 ---
 
