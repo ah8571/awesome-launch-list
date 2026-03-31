@@ -45,8 +45,8 @@ The canonical SaaS dataset uses richer directory typing so entries can support r
 
 Don't want to browse JSON? Use our free interactive backlink tools with filtering and sorting:
 
-- **[Directories Explorer](https://plantingmoon.com/directories)** - Filter by DR, type, cost, and export filtered lists
-- **[Guest Post Sites Database](https://plantingmoon.com/guest-posts)** - Search by niche, authority
+- **[Directories Explorer](https://plantingmoon.com/resources/free-directories)** - Filter by DR, type, cost, and export filtered lists
+- **[Guest Post Sites Database](https://plantingmoon.com/resources/guest-post-sites)** - Search by niche, authority
 - **[All Resources Landing Page](https://plantingmoon.com/resources)** - Combined view of everything
 
 ---
@@ -55,8 +55,8 @@ Don't want to browse JSON? Use our free interactive backlink tools with filterin
 
 ### For Marketers & Founders
 🔗 **[Browse All Resources →](https://plantingmoon.com/resources)**  
-📥 **[Open Directories Explorer →](https://plantingmoon.com/directories)**  
-📥 **[Open Guest Post Database →](https://plantingmoon.com/guest-posts)**
+📥 **[Open Directories Explorer →](https://plantingmoon.com/resources/free-directories)**  
+📥 **[Open Guest Post Database →](https://plantingmoon.com/resources/guest-post-sites)**
 
 ### For Developers
 ```javascript
@@ -96,7 +96,7 @@ fetch('https://raw.githubusercontent.com/ah8571/open-startup-backlink-lists/main
 - ✅ Follow/nofollow links
 - ✅ Detailed descriptions
 
-📄 **[View Full Data](data/directories.json)** | 🌐 **[Interactive Tool](https://plantingmoon.com/saasdirectories)**
+📄 **[View Full Data](data/directories.json)** | 🌐 **[Interactive Tool](https://plantingmoon.com/resources/free-directories)**
 
 ---
 
@@ -122,7 +122,7 @@ fetch('https://raw.githubusercontent.com/ah8571/open-startup-backlink-lists/main
 - ✅ Source aggregations
 - ✅ Contact information
 
-📄 **[View Full Data](data/guest-posts.json)** | 🌐 **[Interactive Tool](https://plantingmoon.com/guest-posts)**
+📄 **[View Full Data](data/guest-posts.json)** | 🌐 **[Interactive Tool](https://plantingmoon.com/resources/guest-post-sites)**
 
 ---
 
