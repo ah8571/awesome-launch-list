@@ -14,7 +14,7 @@
       "url": "https://www.producthunt.com/",
       "description": "Platform for discovering and launching new tech products, offering daily curated lists and community discussions.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory",
         "AI Directory"
       ],
@@ -78,8 +78,7 @@
       "url": "https://www.saashub.com/",
       "description": "Community-driven SaaS comparison site with product reviews and ratings.",
       "type": [
-        "SaaS Directory",
-        "AI Directory"
+        "SaaS Directory"
       ],
       "domainRating": 72,
       "submissionType": "free",
@@ -122,7 +121,7 @@
       "url": "https://betalist.com/",
       "description": "Platform to find and get early access to new startups and products.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 73,
@@ -205,7 +204,7 @@
       "url": "https://sourceforge.net/",
       "description": "Repository for open-source software and project hosting.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory",
         "Open Source"
       ],
@@ -279,7 +278,7 @@
       "url": "https://www.firsto.co/",
       "description": "Launchpad for startups and new projects.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 56,
@@ -297,7 +296,7 @@
       "url": "https://ideakiln.com/",
       "description": "Platform for launching and discovering startup ideas.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 55,
@@ -347,7 +346,7 @@
       "url": "https://www.launchitx.com/",
       "description": "Product launch platform.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 49,
@@ -418,7 +417,6 @@
       "url": "https://saashunt.best",
       "description": "Product launch platform and directory for SaaS products.",
       "type": [
-        "Launch Platform",
         "SaaS Directory"
       ],
       "domainRating": 48,
@@ -452,7 +450,7 @@
       "url": "https://www.openhunts.com/",
       "description": "Open launchpad for product discovery.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 47,
@@ -505,7 +503,7 @@
       "url": "https://www.shipybara.com/",
       "description": "Product launch platform.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 46,
@@ -1023,7 +1021,7 @@
       "description": "Scrollable launch platform.",
       "type": [
         "SaaS Directory",
-        "Launch Platform"
+        "Startup Platform"
       ],
       "domainRating": 42,
       "submissionType": "free",
@@ -1088,7 +1086,6 @@
       "url": "https://www.submitmysaas.com/",
       "description": "Direct SaaS submission platform.",
       "type": [
-        "Launch Platform",
         "SaaS Directory"
       ],
       "domainRating": 36,
@@ -1137,7 +1134,6 @@
       "url": "https://saaspa.ge/",
       "description": "SaaS product launch page.",
       "type": [
-        "Launch Platform",
         "SaaS Directory"
       ],
       "domainRating": 34,
@@ -1155,7 +1151,7 @@
       "url": "https://startupdirs.com/",
       "description": "Directory for startup launches.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 32,
@@ -1204,7 +1200,7 @@
       "url": "https://www.fastlaunch.com/",
       "description": "Quick product launch platform.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 30,
@@ -1690,7 +1686,7 @@
       "description": "Uneed directory for SaaS and software discovery.",
       "type": [
         "SaaS Directory",
-        "Launch Platform"
+        "Startup Platform"
       ],
       "domainRating": 87.0,
       "submissionType": "free",
@@ -1803,8 +1799,7 @@
       "url": "https://alternative.me/",
       "description": "Alternative directory for SaaS and software discovery.",
       "type": [
-        "SaaS Directory",
-        "AI Directory"
+        "SaaS Directory"
       ],
       "domainRating": 72.0,
       "submissionType": "free",
@@ -1892,7 +1887,7 @@
       "description": "Startupranking directory for SaaS and software discovery.",
       "type": [
         "SaaS Directory",
-        "Launch Platform"
+        "Startup Platform"
       ],
       "domainRating": 67.0,
       "submissionType": "unknown",
@@ -2204,7 +2199,7 @@
       "description": "Tinystartups directory for SaaS and software discovery.",
       "type": [
         "SaaS Directory",
-        "Launch Platform"
+        "Startup Platform"
       ],
       "domainRating": 47.0,
       "submissionType": "unknown",
@@ -2338,7 +2333,7 @@
       "id": "directory",
       "name": "Directory",
       "url": "",
-      "description": "Launch Platform",
+      "description": "Startup Platform",
       "type": [
         "SaaS Directory"
       ],
@@ -2370,7 +2365,7 @@
       "id": "its-launch-day",
       "name": "Its Launch Day",
       "url": "",
-      "description": "Launch Platform",
+      "description": "Startup Platform",
       "type": [
         "SaaS Directory"
       ],
@@ -2451,7 +2446,7 @@
       "id": "tiny-launch",
       "name": "Tiny Launch",
       "url": "",
-      "description": "Launch Platform",
+      "description": "Startup Platform",
       "type": [
         "SaaS Directory"
       ],
@@ -2567,7 +2562,6 @@
       "url": "https://resource.fyi",
       "description": "Curated launch platform and startup resource directory.",
       "type": [
-        "Launch Platform",
         "SaaS Directory"
       ],
       "domainRating": 39,
@@ -2601,7 +2595,7 @@
     },
     {
       "id": "launch-platform",
-      "name": "Launch Platform",
+      "name": "Startup Platform",
       "url": "",
       "description": "AI Directory",
       "type": [
@@ -4891,7 +4885,7 @@
       "type": [
         "SaaS Directory",
         "AI Directory",
-        "Launch Platform"
+        "Startup Platform"
       ],
       "domainRating": 88,
       "submissionType": "free",
@@ -4979,7 +4973,7 @@
       "description": "A resource site for entrepreneurs and startups to discover tools and resources.",
       "type": [
         "SaaS Directory",
-        "Launch Platform"
+        "Startup Platform"
       ],
       "domainRating": 35,
       "submissionType": "free",
@@ -6252,7 +6246,7 @@
       "url": "https://peerpush.net",
       "description": "A community-driven startup directory with high domain rating that rewards you for spotlighting the next big thing while showcasing your own growth journey.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 68,
@@ -6270,7 +6264,7 @@
       "url": "https://techcrunch.com",
       "description": "Leading technology media property, dedicated to obsessively profiling startups.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 92,
@@ -6288,7 +6282,7 @@
       "url": "https://launched.lovable.app",
       "description": "Showcase of projects built with Lovable platform.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 87,
@@ -6305,7 +6299,7 @@
       "url": "https://angel.co",
       "description": "The world's largest startup community for investors, entrepreneurs, and job seekers.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 87,
@@ -6323,7 +6317,7 @@
       "url": "https://startupfa.me",
       "description": "Directory for finding and submitting startup tools and resources.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 82,
@@ -6340,7 +6334,7 @@
       "url": "https://dang.ai",
       "description": "Directory of AI tools and artificial intelligence resources.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory",
         "AI Directory"
       ],
@@ -6359,7 +6353,7 @@
       "url": "https://twelve.tools",
       "description": "Curated collection of tools for entrepreneurs and makers.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 79,
@@ -6376,8 +6370,8 @@
       "url": "https://theresanaiforthat.com",
       "description": "Comprehensive database of AI tools for every use case.",
       "type": [
-        "Launch Platform",
-        "SaaS Directory"
+        "SaaS Directory",
+        "AI Directory"
       ],
       "domainRating": 77,
       "submissionType": "paid",
@@ -6393,7 +6387,7 @@
       "url": "https://turbo0.com",
       "description": "Fast-track platform for launching products quickly.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 77,
@@ -6410,7 +6404,6 @@
       "url": "https://www.toolpilot.ai",
       "description": "AI tools discovery and directory",
       "type": [
-        "Launch Platform",
         "SaaS Directory",
         "AI Directory"
       ],
@@ -6429,7 +6422,6 @@
       "url": "https://findly.tools",
       "description": "The best tools, all in one place.",
       "type": [
-        "Launch Platform",
         "SaaS Directory"
       ],
       "domainRating": 74,
@@ -6444,9 +6436,9 @@
       "id": "launchigniter",
       "name": "LaunchIgniter",
       "url": "https://launchigniter.com",
-      "description": "Launch Platform",
+      "description": "Startup Platform",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 72,
@@ -6463,7 +6455,7 @@
       "url": "https://magicbox.tools",
       "description": "Featuring over 20,000 awesome AI tools",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 72,
@@ -6480,8 +6472,8 @@
       "url": "https://submitaitools.org",
       "description": "Simple platform to discover and share AI tools.",
       "type": [
-        "Launch Platform",
-        "SaaS Directory"
+        "SaaS Directory",
+        "AI Directory"
       ],
       "domainRating": 72,
       "submissionType": "paid",
@@ -6497,7 +6489,7 @@
       "url": "https://www.indie.deals",
       "description": "Deals and discounts for indie makers and startups.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 60,
@@ -6514,7 +6506,7 @@
       "url": "https://www.superlaun.ch",
       "description": "A product launch platform cum directory.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 57,
@@ -6531,7 +6523,7 @@
       "url": "https://open-launch.com",
       "description": "Open platform for product launches and feedback.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 57,
@@ -6549,7 +6541,7 @@
       "description": "AI-focused launch platform for startups and new tools.",
       "type": [
         "AI Directory",
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 41,
@@ -6564,7 +6556,7 @@
       "url": "https://www.startupfa.st",
       "description": "Startup directory",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 56,
@@ -6581,7 +6573,7 @@
       "url": "https://startupslab.site",
       "description": "Showcase your startup",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 55,
@@ -6599,7 +6591,7 @@
       "url": "https://scoutforge.net",
       "description": "Discover new apps with unbiased reviews",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 51,
@@ -6616,7 +6608,7 @@
       "url": "https://www.launchingnext.com",
       "description": "Platform for announcing upcoming product launches.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 51,
@@ -6635,7 +6627,7 @@
       "url": "https://openalternative.co",
       "description": "A curated collection of open source alternatives to everyday SaaS products and popular software.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory",
         "Open Source"
       ],
@@ -6654,7 +6646,7 @@
       "url": "https://trustmrr.com",
       "description": "The database of verified startup revenues",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 51,
@@ -6671,7 +6663,7 @@
       "url": "https://makerthrive.com",
       "description": "Community and resources for makers and creators.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 50,
@@ -6688,7 +6680,7 @@
       "url": "https://Discover trusted startups and submit your own to get discovered.",
       "description": "Visit Site",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 47,
@@ -6705,7 +6697,7 @@
       "url": "https://huzzler.so",
       "description": "Platform for discovering and promoting new startup projects.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 46,
@@ -6722,7 +6714,7 @@
       "url": "https://foundrlist.com",
       "description": "SaaS and startup directory",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 46,
@@ -6739,7 +6731,7 @@
       "url": "https://solopush.com",
       "description": "Platform for solo entrepreneurs to promote their projects.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 45,
@@ -6756,7 +6748,7 @@
       "url": "https://startuplist.ing",
       "description": "All-in-one platform for builders",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 41,
@@ -6789,7 +6781,6 @@
       "url": "https://www.microsaasexamples.com",
       "description": "Explore the best micro saas ideas from the internet.",
       "type": [
-        "Launch Platform",
         "SaaS Directory"
       ],
       "domainRating": 40,
@@ -6822,7 +6813,7 @@
       "url": "https://productburst.com",
       "description": "Daily featured products and startup showcases.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 40,
@@ -6840,7 +6831,7 @@
       "url": "https://indiehub.best",
       "description": "All-in-One Directory for Indie Makers",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 39,
@@ -6857,7 +6848,6 @@
       "url": "https://toolfolio.io",
       "description": "All the tools & resources you need, in one place.",
       "type": [
-        "Launch Platform",
         "SaaS Directory"
       ],
       "domainRating": 38,
@@ -6874,8 +6864,8 @@
       "url": "https://rankyourai.com",
       "description": "Ranking and review platform for AI tools.",
       "type": [
-        "Launch Platform",
-        "SaaS Directory"
+        "SaaS Directory",
+        "AI Directory"
       ],
       "domainRating": 38,
       "submissionType": "unknown",
@@ -6891,7 +6881,7 @@
       "url": "https://startupbase.io",
       "description": "Database and directory of startup companies.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory",
         "AI Directory"
       ],
@@ -6912,7 +6902,7 @@
       "url": "https://shipyardhq.dev",
       "description": "Shipyard shows what builders are actually clicking on.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 35,
@@ -6930,7 +6920,7 @@
       "url": "https://trylaunch.ai",
       "description": "The best new AI products. Every day.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 35,
@@ -6947,7 +6937,7 @@
       "url": "https://startups.fm",
       "description": "Podcast and community focused on startup stories.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 35,
@@ -6964,7 +6954,7 @@
       "url": "https://www.bestofweb.com/",
       "description": "Best websites and software directory.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 35,
@@ -6982,7 +6972,7 @@
       "url": "https://proofstories.io",
       "description": "A collection of tools sharing how they won their first customers.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 34,
@@ -6999,7 +6989,7 @@
       "url": "https://tinylaunchpad.com",
       "description": "Fresh products and startups launched every Monday.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 33,
@@ -7016,7 +7006,7 @@
       "url": "https://neeed.directory",
       "description": "neeed.directory",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 33,
@@ -7033,7 +7023,7 @@
       "url": "https://euroalternative.co",
       "description": "Discover European Alternatives to Big Tech Companies",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 32,
@@ -7050,7 +7040,7 @@
       "url": "https://confettisaas.com",
       "description": "ConfettiSaaS.com is a platform for showcasing and discovering confetti-powered apps.",
       "type": [
-        "Launch Platform",
+        "Startup Platform",
         "SaaS Directory"
       ],
       "domainRating": 32,
