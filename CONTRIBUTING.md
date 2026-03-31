@@ -1,4 +1,4 @@
-# Contributing to Awesome Launch List
+# Contributing to Open Startup Backlink Lists
 
 Thank you for your interest in contributing! This guide will help you add new directories, guest post sites, or other marketing resources to the list.
 
@@ -32,14 +32,13 @@ Thank you for your interest in contributing! This guide will help you add new di
 
 - `data/directories.json` = canonical reviewed directories backlinks dataset
 - `data/guest-posts.json` = canonical reviewed guest post dataset
-- `data/open-source-directories.json` = experimental subset derived from canonical data
 - `data/potential-directories.json` = review queue for possible future additions
 
 If an entry is not verified yet, add it to the review queue instead of the canonical dataset.
 
 ### Option 1: GitHub Issue (Easiest)
 
-1. Go to [Issues](https://github.com/ah8571/awesome-launch-list/issues)
+1. Go to [Issues](https://github.com/ah8571/open-startup-backlink-lists/issues)
 2. Click **"New Issue"**
 3. Use the template below:
 
@@ -62,8 +61,8 @@ We'll review and consider the addition.
 
 1. **Fork the repository**
    ```bash
-   git clone https://github.com/ah8571/awesome-launch-list.git
-   cd awesome-launch-list
+   git clone https://github.com/ah8571/open-startup-backlink-lists.git
+   cd open-startup-backlink-lists
    ```
 
 2. **Create a new branch**
@@ -212,7 +211,7 @@ See something that could be better? Open an issue!
 
 ## 📧 Questions?
 
-- **GitHub Issues:** [Create an issue](https://github.com/ah8571/awesome-launch-list/issues)
+- **GitHub Issues:** [Create an issue](https://github.com/ah8571/open-startup-backlink-lists/issues)
 - **Email:** contact@plantingmoon.com
 - **Website:** [plantingmoon.com](https://plantingmoon.com)
 

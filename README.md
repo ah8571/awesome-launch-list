@@ -1,4 +1,4 @@
-# 🚀 Awesome Launch List
+# 🚀 Open Startup Backlink Lists
 
 > A curated collection of startup backlink lists for launching and growing your product. SaaS directories, guest posting sites, and related discovery platforms — all in one place.
 
@@ -6,7 +6,7 @@
 
 [![License](https://img.shields.io/badge/license-GPL%20v3-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/updated-March%202026-green.svg)](https://github.com/ah8571/awesome-launch-list)
+[![Last Updated](https://img.shields.io/badge/updated-March%202026-green.svg)](https://github.com/ah8571/open-startup-backlink-lists)
 
 ---
 
@@ -16,7 +16,6 @@
 |--------------|-------|----------|
 | 🏢 [SaaS Directories](#-saas-directories) | 423 | B2B SaaS, Dev Tools, Product Discovery |
 | ✍️ [Guest Post Sites](#-guest-post-sites) | 660 | Link Building, SEO, Content Marketing |
-| 🧩 [Open Source Directories](#-open-source-directories-experimental) | 4 (subset) | OSS projects, open-source alternatives |
 | 🤖 AI Directories | Coming Soon | AI/ML Products |
 | 🔖 Social Bookmarks | Coming Soon | Quick Wins, Traffic Boost |
 
@@ -26,10 +25,9 @@
 
 ## 🧱 Architecture
 
-This repo has three data layers:
+This repo has two data layers:
 
 - **Canonical datasets** - `data/directories.json` and `data/guest-posts.json`
-- **Experimental subsets** - focused slices derived from canonical data, like `data/open-source-directories.json`
 - **Review queue** - unverified candidates that still need duplicate checks, DR lookup, or manual review
 
 **Source of truth:** `data/directories.json` is the canonical directories dataset. The Planting Moon website copy is generated from it and should not be treated as the primary place to edit entries.
@@ -48,7 +46,7 @@ The canonical SaaS dataset uses richer directory typing so entries can support r
 
 Don't want to browse JSON? Use our free interactive backlink tools with filtering and sorting:
 
-- **[SaaS Directories Explorer](https://plantingmoon.com/saasdirectories)** - Filter by DR, type, cost
+- **[Directories Explorer](https://plantingmoon.com/directories)** - Filter by DR, type, cost, and export filtered lists
 - **[Guest Post Sites Database](https://plantingmoon.com/guest-posts)** - Search by niche, authority
 - **[All Resources Landing Page](https://plantingmoon.com/resources)** - Combined view of everything
 
@@ -58,24 +56,20 @@ Don't want to browse JSON? Use our free interactive backlink tools with filterin
 
 ### For Marketers & Founders
 🔗 **[Browse All Resources →](https://plantingmoon.com/resources)**  
-📥 **[Download CSV →](https://plantingmoon.com/resources#download)**
+📥 **[Open Directories Explorer →](https://plantingmoon.com/directories)**  
+📥 **[Open Guest Post Database →](https://plantingmoon.com/guest-posts)**
 
 ### For Developers
 ```javascript
 // Fetch Directories
-fetch('https://raw.githubusercontent.com/ah8571/awesome-launch-list/main/data/directories.json')
+fetch('https://raw.githubusercontent.com/ah8571/open-startup-backlink-lists/main/data/directories.json')
   .then(res => res.json())
   .then(data => console.log(data.directories));
 
 // Fetch Guest Post Sites
-fetch('https://raw.githubusercontent.com/ah8571/awesome-launch-list/main/data/guest-posts.json')
+fetch('https://raw.githubusercontent.com/ah8571/open-startup-backlink-lists/main/data/guest-posts.json')
   .then(res => res.json())
-  .then(data => console.log(data.directories));
-
-// Fetch Experimental Open Source Directories subset
-fetch('https://raw.githubusercontent.com/ah8571/awesome-launch-list/main/data/open-source-directories.json')
-  .then(res => res.json())
-  .then(data => console.log(data.directories));
+  .then(data => console.log(data.guestPosts));
 ```
 
 ---
@@ -130,24 +124,6 @@ fetch('https://raw.githubusercontent.com/ah8571/awesome-launch-list/main/data/op
 - ✅ Contact information
 
 📄 **[View Full Data](data/guest-posts.json)** | 🌐 **[Interactive Tool](https://plantingmoon.com/guest-posts)**
-
----
-
-## 🧩 Open Source Directories (Experimental)
-
-This is a small experimental subset from the main directories dataset for open-source projects or open-source alternative discovery.
-
-**High-confidence matches:**
-- **SourceForge** - Open-source software repository and project hosting
-- **Open Alternative** - Open source alternatives to popular software
-
-**Medium-confidence matches:**
-- **AlternativeTo** - Alternatives directory that includes many open-source tools, but is not OSS-only
-- **EuroAlternative** - European alternatives to Big Tech, useful but not strictly OSS-only
-
-This subset is useful for research, but it is not broad enough yet to justify a full standalone landing page.
-
-📄 **[View Experimental Subset](data/open-source-directories.json)**
 
 ---
 
@@ -253,7 +229,7 @@ If this project helped you launch your product:
 
 **GNU GPL v3** - Free to use, modify, and distribute under the same license.
 
-When using this data, please credit: *"Data from [Awesome Launch List](https://github.com/ah8571/awesome-launch-list) by [Planting Moon](https://plantingmoon.com)"*
+When using this data, please credit: *"Data from [Open Startup Backlink Lists](https://github.com/ah8571/open-startup-backlink-lists) by [Planting Moon](https://plantingmoon.com)"*
 
 ---
 
