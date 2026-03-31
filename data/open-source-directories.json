@@ -53,8 +53,7 @@
       "url": "https://alternativeto.net/",
       "description": "Directory for discovering alternatives to popular software and services.",
       "type": [
-        "SaaS Directory",
-        "AI Directory"
+        "SaaS Directory"
       ],
       "domainRating": 80,
       "submissionType": "free",
